@@ -1,2 +1,4 @@
-# flink-csv-to-jdbc-demo
-Demo on importing data from a csv to a local H2 database via JDBC
+# Flink CSV to JDBC Table API Demo
+Demonstration of Flink's Table API for CSV to JDBC operations
+
+Data sourced from the [Zillow ZEstimate Kaggle Competition](https://www.kaggle.com/c/zillow-prize-1/data)
