@@ -23,5 +23,5 @@ mvn spring-boot:run
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
-[The Zillow Group](https://www.zillowgroup.com/) for provinding the sample data<br>
+[The Zillow Group](https://www.zillowgroup.com/) for providing the sample data<br>
 Boaz Brudner and Ahmed Atif for the inspiration to create this project.
