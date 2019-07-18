@@ -20,4 +20,4 @@ mvn spring-boot:run
 * [Maven](https://maven.apache.org/) - Dependency Management
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE.md) file for details
