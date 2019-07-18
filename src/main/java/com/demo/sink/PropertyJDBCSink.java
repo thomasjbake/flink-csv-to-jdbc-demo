@@ -7,7 +7,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.types.Row;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 @Slf4j
 @RequiredArgsConstructor
