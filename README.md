@@ -7,7 +7,7 @@ CSV data sourced from the [Zillow ZEstimate Kaggle Competition](https://www.kagg
 * [FlinkCsvToJdbcDemoApplication.java](/src/main/java/com/demo/FlinkCsvToJdbcDemoApplication.java)<br>
 Entry point for application.<br>
 * [CSVSource.java](/src/main/java/com/demo/reader/CSVSource.java)<br>
-Table API (CSVTableSource)[https://ci.apache.org/projects/flink/flink-docs-release-1.3/api/java/org/apache/flink/table/sources/CsvTableSource.html] Wrapper for reading CSV files. Converts [properties_2017_sample.csv](/src/main/resources/properties_2017_sample.csv) into a DataSet<br>
+Table API [CSVTableSource](https://ci.apache.org/projects/flink/flink-docs-release-1.3/api/java/org/apache/flink/table/sources/CsvTableSource.html) Wrapper for reading CSV files. Converts [properties_2017_sample.csv](/src/main/resources/properties_2017_sample.csv) into a DataSet<br>
 * [JDBCSink.java](/src/main/java/com/demo/writer/JDBCSink.java)<br>
 JDBC Sink for writing to a JDBC location. In our case an in-memory H2 database for testing.<br>
 
