@@ -1,7 +1,5 @@
 # Flink CSV to JDBC Table API Demo
-Demonstration of Flink's Table API for CSV to JDBC operations<br>
-[Flink Table API](https://ci.apache.org/projects/flink/flink-docs-release-1.8/dev/table/)<br>
-[Flink Batch DataSet API](https://ci.apache.org/projects/flink/flink-docs-release-1.8/dev/batch/)<br>
+Demonstration of [Apache Flink's](https://ci.apache.org/projects/flink/flink-docs-release-1.8/) [Table API](https://ci.apache.org/projects/flink/flink-docs-release-1.8/dev/table/) and [DataSet API](https://ci.apache.org/projects/flink/flink-docs-release-1.8/dev/batch/) for CSV to JDBC operations<br>
 [properties_2017_sample.csv](/src/main/resources/properties_2017_sample.csv) data sourced from the [Zillow ZEstimate Kaggle Competition](https://www.kaggle.com/c/zillow-prize-1/data)<br>
 
 ## Key Classes
