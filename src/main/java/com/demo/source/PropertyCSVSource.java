@@ -1,4 +1,4 @@
-package com.demo.reader;
+package com.demo.source;
 
 import com.demo.util.FlinkEnvironment;
 import lombok.RequiredArgsConstructor;
@@ -7,12 +7,13 @@ import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.table.sources.CsvTableSource;
 import org.apache.flink.types.Row;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @RequiredArgsConstructor
 @Slf4j
-@Service
-public class CSVSource {
+@Component
+public class PropertyCSVSource {
 
     private final FlinkEnvironment flinkEnvironment;
 

@@ -1,4 +1,4 @@
-package com.demo.writer;
+package com.demo.sink;
 
 import com.demo.util.FlinkEnvironment;
 import com.demo.util.JDBCOutputFormatBuilder;
@@ -6,12 +6,13 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.types.Row;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Slf4j
 @RequiredArgsConstructor
-@Service
-public class JDBCSink {
+@Component
+public class PropertyJDBCSink {
 
     private final FlinkEnvironment flinkEnvironment;
     private final JDBCOutputFormatBuilder jdbcOutputFormatBuilder;
