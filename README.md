@@ -24,4 +24,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 [The Zillow Group](https://www.zillowgroup.com/) for provinding the sample data<br>
-And Boaz Brudner and Ahmed Atif for the inspiration to create this project.
+Boaz Brudner and Ahmed Atif for the inspiration to create this project.
